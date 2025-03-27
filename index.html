@@ -17,15 +17,14 @@ css: /assets/css/custom-index.css
 
 <style>
 .masonry-grid {
-  column-count: 4; /* Numero di colonne */
-  column-gap: 10px;
+  display: block; /* Rimuoviamo column-count */
+  margin: 0 auto;
 }
 
 .masonry-item {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 10px;
-  position: relative;
+  width: 30%; /* Imposta la larghezza degli elementi */
+  margin-bottom: 15px;
+  break-inside: avoid; /* Evita interruzioni tra colonne */
 }
 
 .image-container {
@@ -65,20 +64,22 @@ css: /assets/css/custom-index.css
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
 
-
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var grid = document.querySelector(".masonry-grid");
 
     imagesLoaded(grid, function () {
-      new Masonry(grid, {
+      var masonry = new Masonry(grid, {
         itemSelector: ".masonry-item",
         columnWidth: ".masonry-item",
         percentPosition: true
       });
+
+      masonry.layout();
     });
   });
 </script>
+
 <!-- HERO SECTION HOME MyOroscope  -->
 <div class="hero-100hv position-relative">
   <img src="/assets/images/index/Leonardo_Phoenix_09_Create_a_serene_and_inviting_hero_backgrou_1.jpg" class="hero-bg img-fluid" alt="Sfondo candele profumate MyOroscope">
@@ -127,7 +128,6 @@ css: /assets/css/custom-index.css
 
 
 <div class="masonry-grid">
-  <div class="grid-sizer"></div>
   {% for item in site.portfolio %}
     <div class="masonry-item">
       <div class="image-container">
