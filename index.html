@@ -14,6 +14,37 @@ css: /assets/css/custom-index.css
 # head-script: frontmatter to add some head js (ex. head-script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 # script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 ---
+
+<style>
+  .image-hover-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px; /* Angoli arrotondati opzionali */
+}
+
+.image-hover-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-hover-container:hover img {
+  transform: scale(1.1); /* Effetto zoom sulle immagini quando l'utente passa sopra */
+}
+
+.image-description {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.image-hover-container:hover .image-description {
+  opacity: 1;
+}
+
+.image-description h5,
+.image-description p {
+  margin: 0;
+}
+
+</style>
 <!-- HERO SECTION HOME MyOroscope  -->
 <div class="hero-100hv position-relative">
   <img src="/assets/images/index/Leonardo_Phoenix_09_Create_a_serene_and_inviting_hero_backgrou_1.jpg" class="hero-bg img-fluid" alt="Sfondo candele profumate MyOroscope">
