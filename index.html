@@ -66,6 +66,19 @@ css: /assets/css/custom-index.css
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
 
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var grid = document.querySelector(".masonry-grid");
+
+    imagesLoaded(grid, function () {
+      new Masonry(grid, {
+        itemSelector: ".masonry-item",
+        columnWidth: ".masonry-item",
+        percentPosition: true
+      });
+    });
+  });
+</script>
 <!-- HERO SECTION HOME MyOroscope  -->
 <div class="hero-100hv position-relative">
   <img src="/assets/images/index/Leonardo_Phoenix_09_Create_a_serene_and_inviting_hero_backgrou_1.jpg" class="hero-bg img-fluid" alt="Sfondo candele profumate MyOroscope">
@@ -114,6 +127,7 @@ css: /assets/css/custom-index.css
 
 
 <div class="masonry-grid">
+  <div class="grid-sizer"></div>
   {% for item in site.portfolio %}
     <div class="masonry-item">
       <div class="image-container">
@@ -126,19 +140,7 @@ css: /assets/css/custom-index.css
   {% endfor %}
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var grid = document.querySelector(".masonry-grid");
 
-    imagesLoaded(grid, function () {
-      new Masonry(grid, {
-        itemSelector: ".masonry-item",
-        columnWidth: ".masonry-item",
-        percentPosition: true
-      });
-    });
-  });
-</script>
 
 
 <!-- CARDS -->
