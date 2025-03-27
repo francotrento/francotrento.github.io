@@ -61,6 +61,23 @@ css: /assets/css/custom-index.css
 </div>
 
 
+<div class="container mt-4">
+  <div class="row">
+    {% for project in site.portfolio %}
+      <div class="col-md-4 mb-4">
+        <div class="image-hover-container position-relative">
+          <img src="{{ project.image }}" class="img-fluid" alt="{{ project.title }}">
+          <div class="image-description position-absolute bottom-0 start-0 w-100 p-3 bg-dark text-white opacity-0 transition-opacity">
+            <h5>{{ project.title }}</h5>
+            <p>{{ project.description }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
 <!-- CARDS -->
 <div class="px-4 py-5 text-center">
   <h2 class="display-4 fw-bold text-body-emphasis pb-5">⭐ Cosa rende My Oroscope speciale?</h2>
