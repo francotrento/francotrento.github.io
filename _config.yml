@@ -18,32 +18,47 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MyOroscope - Candele Profumate di Qualità
-email: info@MyOroscope.com
-description: "MyOroscope è il tuo negozio online per candele profumate, artigianali e di alta qualità. Scopri fragranze uniche per ogni ambiente e momento della giornata."
-keywords: "MyOroscope, candele profumate, candele artigianali, fragranze, ambiente accogliente, regali"
-author: "Antonio Trento"
-og_image: "MyOroscope-og-image.jpg"  # Immagine da utilizzare per Open Graph e Twitter Cards
-locale: "it_IT"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://my-oroscope.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: MyOroscope
-github_username:  MyOroscope
-snipchart: YWFiZDYzMzYtZjY3MC00ZDliLTgwNWUtMGFlY2IyOWQ0Y2Q2NjM2NDcxMTc3NTMxNjE4MDUw
+title: "Franco Trento"
+description: "Arte Moderna Concettuale - Portfolio e Mostre"
+baseurl: ""
+url: "https://francotrento.github.io"
 
-fastapi_endpoint: "https://api.prettyproducts.online"
+author:
+  name: "Franco Trento"
+  email: "info@francotrento.com"
+  bio: "Artista di arte moderna concettuale"
 
 collections:
-  products:
+  portfolio:
     output: true
-    permalink: /prodotti/:title/
+    permalink: "/portfolio/:title/"
+  mostre:
+    output: true
+    permalink: "/mostre/:title/"
 
-
-
-# Build settings
-markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Portfolio"
+    url: "/portfolio/"
+  - title: "Mostre"
+    url: "/mostre/"
+  - title: "Contatti"
+    url: "/contatti/"
+
+social:
+  instagram: "https://www.instagram.com/francotrento_art"
+  facebook: "https://www.facebook.com/francotrentoart"
+  twitter: "https://twitter.com/francotrento"
+
+permalink: "/:categories/:title/"
+markdown: kramdown
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
