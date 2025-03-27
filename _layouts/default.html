@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
-  
+  {% include seo.html %}
   <link href="{{ '/assets/css/bootstrap/bootstrap.min.css' | relative_url }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -30,6 +30,7 @@
 </main>
   <script src="{{ '/assets/js/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
   <script src="/assets/js/cookie-consent.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   {% if page.script %}
     {{ page.script }}
   {% endif %}
