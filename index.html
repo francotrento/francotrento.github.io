@@ -16,27 +16,43 @@ css: /assets/css/custom-index.css
 ---
 
 <style>
-  .image-hover-container {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px; /* Angoli arrotondati opzionali */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adatta le colonne in base alle dimensioni */
+  gap: 20px; /* Spazio tra le immagini */
 }
 
-.image-hover-container img {
+.masonry-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
   transition: transform 0.3s ease-in-out;
 }
 
-.image-hover-container:hover img {
-  transform: scale(1.1); /* Effetto zoom sulle immagini quando l'utente passa sopra */
+.masonry-item:hover img {
+  transform: scale(1.05); /* Zoom sulle immagini quando il mouse è sopra */
 }
 
 .image-description {
-  transition: opacity 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
   opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.image-hover-container:hover .image-description {
-  opacity: 1;
+.masonry-item:hover .image-description {
+  opacity: 1; /* Mostra la descrizione quando il mouse è sopra */
 }
 
 .image-description h5,
@@ -93,20 +109,19 @@ css: /assets/css/custom-index.css
 
 
 <div class="container mt-4">
-  <div class="row">
+  <div class="masonry-grid">
     {% for project in site.portfolio %}
-      <div class="col-md-4 mb-4">
-        <div class="image-hover-container position-relative">
-          <img src="{{ project.image }}" class="img-fluid" alt="{{ project.title }}">
-          <div class="image-description position-absolute bottom-0 start-0 w-100 p-3 bg-dark text-white opacity-0 transition-opacity">
-            <h5>{{ project.title }}</h5>
-            <p>{{ project.description }}</p>
-          </div>
+      <div class="masonry-item">
+        <img src="{{ project.image }}" class="img-fluid" alt="{{ project.title }}">
+        <div class="image-description">
+          <h5>{{ project.title }}</h5>
+          <p>{{ project.description }}</p>
         </div>
       </div>
     {% endfor %}
   </div>
 </div>
+
 
 
 <!-- CARDS -->
@@ -360,3 +375,15 @@ Dipende dal tipo di servizio che scegli. Le previsioni settimanali e mensili ven
       <a href="/prodotti/" class="btn btn-light btn-lg">Acquista Ora</a>
   </div>
 </section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+<script>
+  var grid = document.querySelector('.masonry-grid');
+  var msnry = new Masonry(grid, {
+    itemSelector: '.masonry-item',
+    columnWidth: '.masonry-item',
+    percentPosition: true
+  });
+</script>
