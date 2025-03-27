@@ -95,16 +95,16 @@ css: /assets/css/custom-index.css
   overflow: hidden; /* Assicura che non ci siano overflow */
 }
 
-/* Imposta le immagini per occupare tutto lo spazio disponibile mantenendo la proporzione */
+/* Impostiamo lo stile per l'elemento carousel */
 #portfolioSlider .carousel-item {
   height: 100%;
 }
 
 #portfolioSlider .carousel-item img {
-  object-fit: cover; /* Riempi il contenitore senza deformare l'immagine */
+  object-fit: contain; /* Adatta l'immagine all'interno senza tagliarla */
   width: 100%; /* Larghezza al 100% per riempire il contenitore */
   height: 100%; /* Altezza al 100% per mantenere la stessa altezza del contenitore */
-  object-position: center; /* Centra l'immagine se è più larga di quanto dovrebbe essere */
+  object-position: center; /* Centra l'immagine nel contenitore */
 }
 
 /* Testo nella descrizione visibile sopra l'immagine */
@@ -114,6 +114,7 @@ css: /assets/css/custom-index.css
   padding: 10px;
   border-radius: 5px;
 }
+
 
 
 
