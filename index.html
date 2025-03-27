@@ -88,6 +88,31 @@ css: /assets/css/custom-index.css
 .image-description p {
   margin: 0;
 }
+/* Imposta altezza fissa per il carosello */
+#portfolioSlider {
+  max-width: 100%;
+  height: 500px; /* Altezza fissa */
+  overflow: hidden;
+}
+
+/* Assicura che le immagini occupino lo spazio senza distorsioni */
+#portfolioSlider .carousel-item {
+  height: 100%;
+}
+
+#portfolioSlider .carousel-item img {
+  object-fit: cover; /* Ritaglia l'immagine mantenendo le proporzioni */
+  width: 100%;
+  height: 100%;
+}
+
+/* Mantiene il testo della descrizione sempre visibile */
+.carousel-caption {
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
 
 </style>
 
@@ -159,6 +184,7 @@ css: /assets/css/custom-index.css
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 <div class="masonry-grid container">
