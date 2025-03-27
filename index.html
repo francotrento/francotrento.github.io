@@ -95,15 +95,15 @@ css: /assets/css/custom-index.css
   overflow: hidden;
 }
 
-/* Assicura che le immagini occupino lo spazio senza distorsioni */
+/* Imposta l'immagine all'interno dello slider per adattarsi mantenendo le proporzioni */
 #portfolioSlider .carousel-item {
   height: 100%;
 }
 
 #portfolioSlider .carousel-item img {
-  object-fit: cover; /* Ritaglia l'immagine mantenendo le proporzioni */
-  width: 100%;
-  height: 100%;
+  object-fit: contain; /* Adatta l'immagine mantenendo le proporzioni in altezza */
+  width: 100%; /* Assicurati che l'immagine occupi tutta la larghezza */
+  height: 100%; /* Forza l'immagine a occupare l'intera altezza del contenitore */
 }
 
 /* Mantiene il testo della descrizione sempre visibile */
@@ -113,6 +113,7 @@ css: /assets/css/custom-index.css
   padding: 10px;
   border-radius: 5px;
 }
+
 
 </style>
 
