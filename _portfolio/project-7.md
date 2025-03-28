@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Project 7"
-date: 2025-03-30
+date: 2025-03-28
 description: "Descrizione del progetto 7"
 image: "/assets/images/portfolio2.jpg"
 ---
