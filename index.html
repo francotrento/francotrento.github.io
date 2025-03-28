@@ -19,21 +19,24 @@ css: /assets/css/custom-index.css
 /* Imposta altezza fissa per gli slider */
 #portfolioSlider, #exhibitionsSlider {
   max-width: 100%;
-  height: 500px; /* Imposta l'altezza fissa */
+  height: 500px; /* Imposta altezza fissa */
   overflow: hidden; /* Impedisce l'overflow delle immagini */
 }
 
-/* Impostiamo lo stile per l'elemento carousel */
+/* Contenitore per le immagini, mantenendo proporzioni corrette */
 #portfolioSlider .carousel-item, #exhibitionsSlider .carousel-item {
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Adattiamo le immagini per farle rientrare senza essere ritagliate */
+/* Adattamento dell'immagine per essere visibile senza troncamenti */
 #portfolioSlider .carousel-item img, #exhibitionsSlider .carousel-item img {
-  object-fit: contain; /* Le immagini sono adattate per rientrare nel contenitore senza essere tagliate */
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-position: center; /* Centra l'immagine all'interno del contenitore */
+  object-fit: contain; /* Mantiene la proporzione originale dell'immagine */
+  object-position: center; /* Centra l'immagine nel contenitore */
 }
 
 /* Stile per la descrizione e il testo sopra l'immagine */
@@ -56,6 +59,7 @@ css: /assets/css/custom-index.css
   color: white;
   font-size: 1rem;
 }
+
 
 
 </style>
