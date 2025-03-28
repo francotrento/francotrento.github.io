@@ -15,7 +15,43 @@ css: /assets/css/custom-index.css
 # script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 ---
 
+<style>
+  /* Contenitore per l'immagine con effetto hover */
+.image-hover-container {
+  position: relative;
+  overflow: hidden;
+}
 
+.image-hover-container img {
+  transition: transform 0.3s ease;
+}
+
+.image-hover-container:hover img {
+  transform: scale(1.1); /* Ingrandisce l'immagine al passaggio del mouse */
+}
+
+/* Stile della descrizione e del link nel carosello */
+.carousel-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-caption h5 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.carousel-caption p {
+  color: white;
+  font-size: 1rem;
+}
+
+</style>
 
 <!-- HERO SECTION HOME MyOroscope  -->
 <div class="hero-100hv position-relative">
