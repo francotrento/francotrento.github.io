@@ -28,9 +28,9 @@ css: /assets/css/custom-index.css
   height: 100%;
 }
 
-/* Adattiamo le immagini all'interno del carosello senza distorsioni */
+/* Adattiamo le immagini per farle rientrare senza essere ritagliate */
 #portfolioSlider .carousel-item img, #exhibitionsSlider .carousel-item img {
-  object-fit: cover; /* Le immagini riempiono completamente l'area senza distorsioni */
+  object-fit: contain; /* Le immagini sono adattate per rientrare nel contenitore senza essere tagliate */
   width: 100%;
   height: 100%;
   object-position: center; /* Centra l'immagine all'interno del contenitore */
@@ -56,6 +56,7 @@ css: /assets/css/custom-index.css
   color: white;
   font-size: 1rem;
 }
+
 
 </style>
 
@@ -141,6 +142,7 @@ css: /assets/css/custom-index.css
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 
