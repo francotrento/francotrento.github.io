@@ -15,54 +15,6 @@ css: /assets/css/custom-index.css
 # script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 ---
 
-<style>
-/* Imposta altezza fissa per gli slider */
-#portfolioSlider, #exhibitionsSlider {
-  max-width: 100%;
-  height: 500px; /* Imposta altezza fissa */
-  overflow: hidden; /* Impedisce l'overflow delle immagini */
-}
-
-/* Contenitore per le immagini, mantenendo proporzioni corrette */
-#portfolioSlider .carousel-item, #exhibitionsSlider .carousel-item {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Adattamento dell'immagine per essere visibile senza troncamenti */
-#portfolioSlider .carousel-item img, #exhibitionsSlider .carousel-item img {
-  width: auto;
-  height: 100%;
-  object-fit: contain; /* Mantiene la proporzione originale dell'immagine */
-  object-position: center; /* Centra l'immagine nel contenitore */
-}
-
-/* Stile per la descrizione e il testo sopra l'immagine */
-.carousel-caption {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.carousel-caption h5 {
-  color: white;
-  font-size: 1.5rem;
-}
-
-.carousel-caption p {
-  color: white;
-  font-size: 1rem;
-}
-
-
-
-</style>
 
 <!-- HERO SECTION HOME MyOroscope  -->
 <div class="hero-100hv position-relative">
@@ -86,7 +38,90 @@ css: /assets/css/custom-index.css
   </div>
 </div>
 
+
 <!-- PORTFOLIO SECTION -->
+<section class="portfolio_area area-padding" id="portfolio">
+  <div class="container">
+    <div class="area-heading text-center">
+      <h3>Check <span>Recent</span> Work</h3>
+      <p>She'd earth that midst void creeping him above seas.</p>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters portfolio-filter text-center">
+      <ul>
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".weeding">Weeding</li>
+        <li data-filter=".motion">Motion</li>
+        <li data-filter=".portrait">Portrait</li>
+        <li data-filter=".fashion">Fashion</li>
+      </ul>
+    </div>
+
+    <!-- Portfolio Content -->
+    <div class="filters-content">
+      <div class="row portfolio-grid">
+        <div class="grid-sizer col-md-3 col-lg-4"></div>
+
+        {% assign is_first = true %}
+        {% for project in site.portfolio %}
+          <div class="col-lg-4 col-md-6 all {% for category in project.categories %}{{ category }} {% endfor %}">
+            <div class="single_portfolio">
+              <img class="img-fluid w-100" src="{{ project.image }}" alt="{{ project.title }}">
+              <div class="short_info">
+                <p>{{ project.category }}</p>
+                <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Optional JavaScript -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Stellar.js -->
+<script src="https://cdn.jsdelivr.net/npm/stellar.js@0.6.2/jquery.stellar.min.js"></script>
+
+<!-- Isotope -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- jQuery AjaxChimp -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
+
+<!-- jQuery CounterUp -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+
+<!-- jQuery Form -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form/4.3.0/jquery.form.min.js"></script>
+
+<!-- jQuery Validate -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+<!-- Theme and other scripts -->
+<script src="https://example.com/js/mail-script.js"></script> <!-- You should host this script yourself -->
+<script src="https://example.com/js/contact.js"></script> <!-- You should host this script yourself -->
+<script src="https://example.com/js/theme.js"></script> <!-- You should host this script yourself -->
+
+
+
+
+<!-- PORTFOLIO SECTION https://mdbootstrap.com/docs/standard/extended/gallery/ -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
