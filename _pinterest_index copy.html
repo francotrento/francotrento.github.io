@@ -15,6 +15,130 @@ css: /assets/css/custom-index.css
 # script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 ---
 
+<style>
+/* GRID MASONRY */
+.masonry-grid {
+  display: block;
+  margin: 0 auto;
+}
+
+.masonry-item {
+  width: 30%;
+  margin-bottom: 15px;
+  break-inside: avoid;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+/* SLIDER BOOTSTRAP */
+.image-hover-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-hover-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-hover-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-description {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.image-hover-container:hover .image-description {
+  opacity: 1;
+}
+
+.image-description h5,
+.image-description p {
+  margin: 0;
+}
+/* Impostiamo lo stile per il carousel */
+#portfolioSlider {
+  max-width: 100%;
+  height: 500px; /* Altezza fissa */
+  overflow: hidden; /* Assicura che non ci siano overflow */
+}
+
+/* Assicuriamoci che le immagini nel carousel si adattino bene */
+#portfolioSlider .carousel-item {
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Centra l'immagine orizzontalmente */
+}
+
+#portfolioSlider .carousel-item img {
+  max-height: 100%; /* Limita l'altezza dell'immagine */
+  width: auto; /* Mantieni il rapporto di aspetto originale */
+  object-fit: contain; /* Contiene l'immagine senza deformarla */
+}
+
+/* Testo nella descrizione visibile sopra l'immagine */
+.carousel-caption {
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+</style>
+
+
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var grid = document.querySelector(".masonry-grid");
+
+    imagesLoaded(grid, function () {
+      var masonry = new Masonry(grid, {
+        itemSelector: ".masonry-item",
+        columnWidth: ".masonry-item",
+        percentPosition: true
+      });
+
+      masonry.layout();
+    });
+  });
+</script>
 
 
 <!-- HERO SECTION HOME MyOroscope  -->
@@ -65,40 +189,21 @@ css: /assets/css/custom-index.css
   </button>
 </div>
 
-<!-- TESTIMONIALS SECTION -->
-<div class="hero-parallax py-5">
-  <div class="container text-center">
-    <h2 class="display-5 fw-bold mb-5">Cosa dicono i nostri clienti</h2>
-
-  </div>
-</div>
 
 
-<div id="exhibitionsSlider" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    {% assign is_first = true %}
-    {% for exhibition in site.mostre %}
-      <div class="carousel-item {% if is_first %}active{% assign is_first = false %}{% endif %}">
-        <div class="image-hover-container">
-          <img src="{{ exhibition.image }}" class="d-block w-100" alt="{{ exhibition.title }}">
-          <div class="carousel-caption d-none d-md-block">
-            <h5><a href="{{ exhibition.url }}">{{ exhibition.title }}</a></h5>
-            <p>{{ exhibition.description }}</p>
-          </div>
+
+<div class="masonry-grid container">
+  {% for item in site.portfolio %}
+    <div class="masonry-item">
+      <div class="image-container">
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+        <div class="overlay">
+          <p>{{ item.title }}</p>
         </div>
       </div>
-    {% endfor %}
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#exhibitionsSlider" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#exhibitionsSlider" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    </div>
+  {% endfor %}
 </div>
-
 
 
 
