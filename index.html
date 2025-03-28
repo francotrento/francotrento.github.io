@@ -16,21 +16,27 @@ css: /assets/css/custom-index.css
 ---
 
 <style>
-  /* Contenitore per l'immagine con effetto hover */
-.image-hover-container {
-  position: relative;
-  overflow: hidden;
+/* Imposta altezza fissa per gli slider */
+#portfolioSlider, #exhibitionsSlider {
+  max-width: 100%;
+  height: 500px; /* Imposta l'altezza fissa */
+  overflow: hidden; /* Impedisce l'overflow delle immagini */
 }
 
-.image-hover-container img {
-  transition: transform 0.3s ease;
+/* Impostiamo lo stile per l'elemento carousel */
+#portfolioSlider .carousel-item, #exhibitionsSlider .carousel-item {
+  height: 100%;
 }
 
-.image-hover-container:hover img {
-  transform: scale(1.1); /* Ingrandisce l'immagine al passaggio del mouse */
+/* Adattiamo le immagini all'interno del carosello senza distorsioni */
+#portfolioSlider .carousel-item img, #exhibitionsSlider .carousel-item img {
+  object-fit: cover; /* Le immagini riempiono completamente l'area senza distorsioni */
+  width: 100%;
+  height: 100%;
+  object-position: center; /* Centra l'immagine all'interno del contenitore */
 }
 
-/* Stile della descrizione e del link nel carosello */
+/* Stile per la descrizione e il testo sopra l'immagine */
 .carousel-caption {
   position: absolute;
   bottom: 10px;
@@ -101,6 +107,7 @@ css: /assets/css/custom-index.css
   </button>
 </div>
 
+
 <!-- TESTIMONIALS SECTION -->
 <div class="hero-parallax py-5">
   <div class="container text-center">
@@ -134,6 +141,7 @@ css: /assets/css/custom-index.css
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 
