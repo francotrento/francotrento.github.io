@@ -4,7 +4,7 @@ title: "Project 1"
 date: 2025-03-27
 description: "Descrizione mostra 1"
 homepage: true
-image: "/assets/images/Leonardo_Phoenix_09_Create_a_modern_minimalist_logo_for_an_eco_1.jpg" # size fissa 400x300px
+image: "https://picsum.photos/800/600?random=1" # size fissa 800x600px
 image-header:
 image-paint:
 gallery:
