@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: mostre
 title: "Project 1"
 date: 2025-03-27
 description: "Descrizione del progetto 1"
