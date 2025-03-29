@@ -3,7 +3,8 @@ layout: project
 title: "Project 4"
 date: 2025-03-27
 description: "Descrizione del progetto 4"
-image: "/assets/images/Leonardo_Phoenix_09_Create_a_modern_minimalist_logo_for_an_eco_1.jpg"
+homepage: true
+image: "https://picsum.photos/400/300?random=1"
 ---
 
 Dettagli del progetto 4.

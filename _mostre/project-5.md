@@ -3,7 +3,7 @@ layout: project
 title: "Project 5"
 date: 2025-03-30
 description: "Descrizione del progetto 5"
-image: "/assets/images/portfolio3.jpg"
+image: "https://picsum.photos/400/300?random=1"
 ---
 
 Dettagli del progetto 5.

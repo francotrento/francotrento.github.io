@@ -236,6 +236,39 @@ img:hover {
 
 
 
+<!-- Slider Bootstrap per la collection "mostre" -->
+{% assign homepage_projects = site.mostre | where: "homepage", true %}
+
+{% if homepage_projects.size > 0 %}
+<div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        {% for project in homepage_projects %}
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
+    </div>
+    <div class="carousel-inner">
+        {% for project in homepage_projects %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img src="{{ project.image }}" class="d-block w-100" alt="{{ project.title }}">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{ project.title }}</h5>
+                <p>{{ project.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endif %}
+
+
 
 <!-- PORTFOLIO MOSTRE -->
 <div class="hero-parallax py-5">
