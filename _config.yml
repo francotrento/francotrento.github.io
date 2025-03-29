@@ -50,6 +50,16 @@ navigation:
   - title: "Contatti"
     url: "/contatti/"
 
+faq:
+  - question: "Come posso contattarvi?"
+    answer: "Puoi scriverci tramite la pagina Contatti o inviarci un'email."
+  - question: "Quali metodi di pagamento accettate?"
+    answer: "Accettiamo PayPal, carta di credito e bonifico bancario."
+  - question: "Quanto tempo ci vuole per la consegna?"
+    answer: "I tempi di consegna variano tra 3 e 5 giorni lavorativi."
+
+
+
 social:
   instagram: "https://www.instagram.com/francotrento_art"
   facebook: "https://www.facebook.com/francotrentoart"
