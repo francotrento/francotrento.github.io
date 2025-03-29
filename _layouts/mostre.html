@@ -17,13 +17,6 @@ layout: default
     <p class="description">{{ page.description }}</p>
 
 
-
-    {% if page.image %}
-      <div class="main-image">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
-      </div>
-    {% endif %}
-
     {% if page.gallery %}
       <div class="gallery">
         {% for image in page.gallery %}
@@ -33,7 +26,7 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-    
+
     <div class="portfolio-content">
       {{ content }}
     </div>
