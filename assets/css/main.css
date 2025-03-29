@@ -8,10 +8,10 @@
 
   /* Nuova palette colori */
   --bs-primary: #ffffff; /* Blu notte profondo */
-  --bs-secondary: #FDFCFB; /* Bianco luminoso */
-  --bs-accent: #D4A857; /* Oro caldo */
-  --bs-soft: #DCC8FF; /* Lavanda chiaro */
-  --bs-text: #333333; /* Grigio grafite */
+  --bs-secondary: #000000; /* Bianco luminoso */
+  --bs-accent: #484848; /* Oro caldo */
+  --bs-soft: #707070; /* Lavanda chiaro */
+  --bs-text: #000000; /* Grigio grafite */
 
   /* Personalizzazioni bottoni */
   --bs-btn-primary-bg: var(--bs-primary);
