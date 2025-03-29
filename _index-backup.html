@@ -4,8 +4,8 @@
 
 layout: default
 # SEO
-title: Franco Trento  - Candele Profumate Artigianali
-description: Scopri le candele profumate artigianali di Franco Trento , perfette per ogni occasione.
+title: Franco Trento  - Un artista contemporaneo che esprime su tela le sue emozioni.
+description: Creo opere contemporanee in acrilico su tela e collaboro con gallerie d'arte nel nord italia. 
 # permalink: /about/ to manage permalinks
 # url:
 # og_image:
@@ -14,134 +14,140 @@ css: /assets/css/custom-index.css
 # head-script: frontmatter to add some head js (ex. head-script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 # script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
 ---
-
 <style>
-/* GRID MASONRY */
-.masonry-grid {
-  display: block;
-  margin: 0 auto;
-}
 
-.masonry-item {
-  width: 30%;
-  margin-bottom: 15px;
-  break-inside: avoid;
-}
 
-.image-container {
-  position: relative;
-  width: 100%;
-  transition: transform 0.3s ease-in-out;
-}
-
-.image-container img {
-  width: 100%;
-  display: block;
-  border-radius: 8px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
+header{
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 8px;
+	align-items: center;
+  color: #fff;
+  padding-top: 17vh;
 }
 
-.image-container:hover .overlay {
-  opacity: 1;
-}
 
-/* SLIDER BOOTSTRAP */
-.image-hover-container {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-}
 
-.image-hover-container img {
-  transition: transform 0.3s ease-in-out;
-}
 
-.image-hover-container:hover img {
-  transform: scale(1.1);
+.masonry-container
+{
+  padding-top: 13vh;
+  width: 1400px;
+  margin: auto;
+  columns: 6;
+  column-gap: 20px;
+  
 }
-
-.image-description {
-  transition: opacity 0.3s ease;
-  opacity: 0;
+.masonry-container .box
+{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  border-radius: 15px;
 }
-
-.image-hover-container:hover .image-description {
-  opacity: 1;
-}
-
-.image-description h5,
-.image-description p {
-  margin: 0;
-}
-/* Impostiamo lo stile per il carousel */
-#portfolioSlider {
+.masonry-container .box img
+{
   max-width: 100%;
-  height: 500px; /* Altezza fissa */
-  overflow: hidden; /* Assicura che non ci siano overflow */
-}
-
-/* Assicuriamoci che le immagini nel carousel si adattino bene */
-#portfolioSlider .carousel-item {
-  height: 100%;
-  display: flex;
-  justify-content: center; /* Centra l'immagine orizzontalmente */
-}
-
-#portfolioSlider .carousel-item img {
-  max-height: 100%; /* Limita l'altezza dell'immagine */
-  width: auto; /* Mantieni il rapporto di aspetto originale */
-  object-fit: contain; /* Contiene l'immagine senza deformarla */
-}
-
-/* Testo nella descrizione visibile sopra l'immagine */
-.carousel-caption {
-  bottom: 20px;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  border-radius: 5px;
+  min-width: 100%;
+  border-radius: 10px;
 }
 
 
+img:hover {
+  
+  opacity: .95;
+  box-shadow: 0 0 10px #fff;
+}
 
+.caption{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px;
+}
+
+@media (max-width: 1427px)
+{
+  .masonry-container
+  {
+    columns: 5;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 1200px)
+{
+  .masonry-container
+  {
+    columns: 4;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  .masonry-container
+  {
+    columns: 3;
+  }
+  
+
+
+	
+	@keyframes navLinkFade{
+		from{
+			opacity: 0;
+			transform: translateX(50px);
+			}
+		
+		to{
+			opacity: 1;
+			transform: translateX(0px);
+			}
+		}
+	
+	
+	.toggle .l1{
+		transform: rotate(-45deg) translate(-5px,6px);
+	}
+	
+	.toggle .l2{
+		opacity: 0;
+	}
+	
+	.toggle .l3{
+		transform: rotate(45deg) translate(-5px,-6px);
+	}
+}
+  
+  
+
+
+@media (max-width: 786px)
+{
+  .masonry-container
+  {
+    columns: 2;
+  }
+  
+  h1{
+    font-size: 1.3em;
+  }
+  
+  h2{
+    font-size: 1em;
+  }
+}
+
+
+@media (max-width: 480px)
+{
+  .masonry-container
+  {
+    columns: 2;
+  }
+}
 </style>
 
 
-<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var grid = document.querySelector(".masonry-grid");
-
-    imagesLoaded(grid, function () {
-      var masonry = new Masonry(grid, {
-        itemSelector: ".masonry-item",
-        columnWidth: ".masonry-item",
-        percentPosition: true
-      });
-
-      masonry.layout();
-    });
-  });
-</script>
-
-
-<!-- HERO SECTION HOME Franco Trento  -->
+<!-- HERO SECTION HOME Franco Trento view-source:https://preview.colorlib.com/theme/pentax/  -->
 <div class="hero-100hv position-relative">
   <img src="/assets/images/index/Leonardo_Phoenix_09_Create_a_serene_and_inviting_hero_backgrou_1.jpg" class="hero-bg img-fluid" alt="Sfondo candele profumate Franco Trento">
   <div class="hero-overlay-black"></div>
@@ -163,9 +169,39 @@ css: /assets/css/custom-index.css
   </div>
 </div>
 
+<header>
+  <h1>Pinterest Style Image Gallery</h1>
+  <h2>with Responsive Navigation Bar</h2>
+</header> 
 
-<div id="portfolioSlider" class="carousel slide" data-bs-ride="carousel">
+<div class="masonry-container">
+  {% assign homepage_portfolio = site.portfolio | where: "homepage", true %}
+  {% for item in homepage_portfolio %}
+    <div class="box">
+      <a href="{{ item.url }}">
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+      </a>
+      <div class="caption">{{ item.title }}</div>
+    </div>
+  {% endfor %}
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+
+
+
+
+<!-- PORTFOLIO SECTION https://mdbootstrap.com/docs/standard/extended/gallery/ 
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
+
     {% assign is_first = true %}
     {% for project in site.portfolio %}
       <div class="carousel-item {% if is_first %}active{% assign is_first = false %}{% endif %}">
@@ -179,31 +215,85 @@ css: /assets/css/custom-index.css
       </div>
     {% endfor %}
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioSlider" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#portfolioSlider" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div>-->
 
 
 
+<!-- MOSTRE SECTION -->
+<div class="hero-parallax py-5">
+  <div class="container text-center">
+    <h2 class="display-5 fw-bold mb-5">Mostre a cui ho partecipato</h2>
+    <!-- Slider Bootstrap per la collection "mostre" -->
+    {% assign homepage_projects = site.mostre | where: "homepage", true %}
 
-<div class="masonry-grid container">
-  {% for item in site.portfolio %}
-    <div class="masonry-item">
-      <div class="image-container">
-        <img src="{{ item.image }}" alt="{{ item.title }}">
-        <div class="overlay">
-          <p>{{ item.title }}</p>
+    {% if homepage_projects.size > 0 %}
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            {% for project in homepage_projects %}
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
+            {% endfor %}
         </div>
-      </div>
+        <div class="carousel-inner">
+            {% for project in homepage_projects %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <img src="{{ project.image }}" class="d-block w-100" alt="{{ project.title }}">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="{{ project.url }}"><h5>{{ project.title }}</h5></a>
+                    <p>{{ project.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  {% endfor %}
+    {% endif %}
+
+  </div>
 </div>
+
+
+
+
+
+
+<!-- PORTFOLIO MOSTRE -->
+<div class="hero-parallax py-5">
+  <div class="container text-center">
+    <h2 class="display-5 fw-bold mb-5">Le nostre Mostre</h2>
+    <div class="row g-4 justify-content-center">
+      
+      {% assign is_first = true %}
+      {% for project in site.mostre %}
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="{{ project.image }}" class="img-fluid w-100" alt="{{ project.title }}">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mt-3"><a href="{{ project.url }}">{{ project.title }}</a></h5>
+              <p class="card-text fst-italic">{{ project.description }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
 
 
 
@@ -282,25 +372,14 @@ css: /assets/css/custom-index.css
 
 
 
-<!-- ESPERIENZA SECTION HOME Franco Trento -->
-<div class="hero-img-bg">
-  <div class="container px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Scopri la Differenza con Franco Trento </h2>
-        <p>Franco Trento  non è solo un brand di candele profumate, è un viaggio sensoriale che ti permette di creare l'ambiente perfetto in ogni momento della giornata. Ogni candela è realizzata a mano con cura e passione, utilizzando cere naturali e fragranze raffinate che rilasceranno nel tuo spazio un profumo avvolgente, capace di trasportarti in una dimensione di puro relax e comfort.</p>
-        <p>Ogni candela è un'opera d'arte, decorata con elementi naturali che non solo arricchiscono l'estetica della tua casa, ma sono anche perfette per ogni occasione: un regalo speciale, un momento di meditazione, o semplicemente per trasformare la tua casa in un angolo di paradiso.</p>
-      </div>
-      <div class="col-lg-6 align-items-end">
-        <img src="/assets/images/index/Leonardo_Phoenix_09_Create_a_minimalist_background_with_a_vibr_0.jpg" class="d-block mx-lg-auto img-fluid" alt="Candela decorata Franco Trento">
-      </div>
-    </div>
-  </div>
+<!-- About Franco Trento -->
+<div class="container">
+  {% include about.html %}
 </div>
 
-
-
-
+<div class="container">
+{% include accordion-faq.html %}
+</div>
 
 
 <!-- PLANS SECTION HOME Franco Trento  -->
