@@ -3,6 +3,7 @@ layout: portfolio
 title: "Project 2"
 date: 2025-03-28
 description: "Descrizione del progetto 2"
+homepage: true
 image: "/assets/images/portfolio2.jpg"
 image-header:
 image-paint:

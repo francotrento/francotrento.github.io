@@ -175,7 +175,8 @@ img:hover {
 </header> 
 
 <div class="masonry-container">
-  {% for item in site.portfolio %}
+  {% assign homepage_portfolio = site.portfolio | where: "homepage", true %}
+  {% for item in homepage_portfolio %}
     <div class="box">
       <a href="{{ item.url }}">
         <img src="{{ item.image }}" alt="{{ item.title }}">
