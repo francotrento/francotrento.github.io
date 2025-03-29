@@ -7,7 +7,7 @@ layout: default
     <div class="portfolio-header" style="background-image: url('{{ page.image-header }}');"></div>
   {% endif %}
 
-  <div class="container">
+  <div class="portfolio-container">
     <h1>{{ page.title }}</h1>
     {% assign mesi = "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre" | split: "," %}
     {% assign mese_index = page.date | date: "%m" | minus: 1 %}
@@ -75,7 +75,7 @@ layout: default
     background-position: center;
   }
 
-  .container {
+  .portfolio-container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
