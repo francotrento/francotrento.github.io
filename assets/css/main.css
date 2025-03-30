@@ -312,3 +312,17 @@ color: #d63384; /* Rosa (ciliegio) */
 .text-soft {
   color: var(--bs-soft);
 }
+
+/* Stili specifici per l'immagine con classe custom-image */
+.about-image {
+  max-width: 100%; /* L'immagine non supererà mai il 100% della larghezza del contenitore */
+  height: auto; /* Mantiene le proporzioni originali dell'immagine */
+}
+
+/* Opzionale: Se vuoi che l'immagine sia centrata e ridimensionata solo su mobile */
+@media (max-width: 768px) {
+  .about-image {
+    width: 100%; /* L'immagine occupa tutta la larghezza disponibile su schermi piccoli */
+    height: auto;
+  }
+}
