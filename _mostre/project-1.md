@@ -4,7 +4,7 @@ title: "Project 1"
 date: 2025-03-27
 description: "Descrizione del progetto 1"
 homepage: true
-image: "https://picsum.photos/800/400?random=1"
+image: "https://picsum.photos/800/500?random=1"
 image-header:
 image-paint:
 gallery:
