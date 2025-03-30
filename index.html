@@ -201,7 +201,7 @@ css: /assets/css/custom-index.css
             {% for project in homepage_projects %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
                 <img src="{{ project.image }}" class="d-block w-100" alt="{{ project.title }}">
-                <a href="{{ project.url }}" class="btn btn-dark position-absolute bottom-0 start-0 m-3">
+                <a href="{{ project.url }}" class="btn btn-dark position-absolute bottom-25 start-50 translate-middle-x m-3">
                   {{ project.title }}
                 </a>
             </div>
