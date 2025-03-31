@@ -48,7 +48,7 @@ navigation:
   - title: "Mostre"
     url: "/mostre/"
   - title: "Contatti"
-    url: "/contatti/"
+    url: "https://forms.gle/Pv5PoBbQUStbxdu5A"
 
 faq:
   - question: "Come posso contattarvi?"
