@@ -128,8 +128,7 @@ layout: default
   
   
   <div class="masonry-container">
-    {% assign homepage_portfolio = site.portfolio | where: "homepage", true %}
-    {% for item in homepage_portfolio %}
+    {% for item in site.portfolio %}
       <div class="box">
         <a href="{{ item.url }}">
           <img src="{{ item.image }}" alt="{{ item.title }}">
