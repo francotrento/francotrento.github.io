@@ -6,7 +6,7 @@ description: "Descrizione del progetto 1"
 homepage: true
 image: "/assets/images/Leonardo_Phoenix_09_Create_a_modern_minimalist_logo_for_an_eco_1.jpg" # 360px larghezza per gestire la masonry grid
 image-header:
-image-paint:
+image-paint: "/assets/images/Leonardo_Phoenix_09_Create_a_modern_minimalist_logo_for_an_eco_1.jpg" # 760px larghezza per gestire la pagina portfolio
 gallery:
   - "https://picsum.photos/400/300?random=1"
   - "https://picsum.photos/400/300?random=2"

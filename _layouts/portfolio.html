@@ -16,15 +16,17 @@ layout: default
     
     <p class="description">{{ page.description }}</p>
 
+    {% if page.image %}
+      <div class="main-image">
+        <img src="{{ page.image-paint }}" alt="{{ page.title }}">
+      </div>
+    {% endif %}
+
     <div class="portfolio-content">
       {{ content }}
     </div>
 
-    {% if page.image %}
-      <div class="main-image">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
-      </div>
-    {% endif %}
+
 
     {% if page.gallery %}
       <div class="gallery">

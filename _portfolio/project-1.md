@@ -6,7 +6,7 @@ description: "Descrizione del progetto 1"
 homepage: true
 image: "/assets/images/portfolio/project-1/project-1-v1.jpg" # 360px larghezza per gestire la masonry 
 image-header:
-image-paint:
+image-paint: "/assets/images/portfolio/project-1/image-paint-project-1-v1.jpg"
 gallery:
   - "https://picsum.photos/400/300?random=1"
   - "https://picsum.photos/400/300?random=2"
