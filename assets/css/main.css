@@ -24,6 +24,10 @@
   --bs-btn-secondary-color: var(--bs-primary);
   --bs-btn-secondary-hover-bg: var(--bs-primary);
   --bs-btn-secondary-hover-color: white;
+
+  /* Personalizzazioni accordion */
+  --bs-accordion-active-bg: #f8f9fa;  /* Colore di sfondo per l'accordion attivo */
+  --bs-accordion-btn-focus-box-shadow: none;  /* Rimuove il bordo evidenziato */
 }
 
 /* Tipografia */
