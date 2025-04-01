@@ -52,7 +52,7 @@ navigation:
 
 faq:
   - question: "Posso acquistare direttamente le opere di Franco Trento?"
-    answer: "Le opere di Franco Trento sono disponibili per collezionisti e gallerie selezionate. Se sei interessato, contattaci direttamente per discutere disponibilità e modalità d’acquisto."
+    answer: "Le opere di Franco Trento sono disponibili per collezionisti e gallerie selezionate. Se sei interessato, <a href='https://forms.gle/Pv5PoBbQUStbxdu5A' target='_blank' class='text-black'>contattaci</a> direttamente per discutere disponibilità e modalità d’acquisto."
   - question: "Accettate commissioni per opere su misura?"
     answer: "Franco Trento realizza opere personalizzate solo su progetti che rispettano la sua visione artistica. Se hai un’idea che pensi possa allinearsi con il suo stile, contattaci per una valutazione.."
   - question: "Sono un gallerista/curatore, posso esporre le opere di Franco Trento?"
