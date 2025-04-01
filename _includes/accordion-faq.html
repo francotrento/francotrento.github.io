@@ -1,3 +1,11 @@
+<style>
+    /* Modifiche CSS direttamente nel file head */
+    .accordion-button:not(.collapsed) {
+        background-color: #f8f9fa !important;  /* Colore grigio chiaro */
+        color: inherit;
+        box-shadow: none;
+    }
+</style>
 <!-- Accordion FAQ -->
 <div class="accordion" id="faqAccordion">
     {% for faq in site.faq %}
