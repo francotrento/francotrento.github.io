@@ -77,6 +77,7 @@ def hello():
 ---
 
 ### Tabella
+
 | Nome  | Età | Città  |
 |-------|----:|--------|
 | Mario |  30 | Milano |

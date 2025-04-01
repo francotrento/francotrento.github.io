@@ -77,11 +77,13 @@ def hello():
 ---
 
 ### Tabella
-| Nome   | Età | Città     |
-|--------|----|-----------|
-| Mario  | 30 | Milano    |
-| Lucia  | 25 | Roma      |
-| Marco  | 35 | Torino    |
+
+| Nome  | Età | Città  |
+|-------|----:|--------|
+| Mario |  30 | Milano |
+| Lucia |  25 | Roma   |
+| Marco |  35 | Torino |
+
 
 ---
 
