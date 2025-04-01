@@ -4,7 +4,7 @@ title: "Project 1"
 date: 2025-03-27
 description: "Descrizione del progetto 1"
 homepage: true
-image: "/assets/images/portfolio/project-1-v1.jpg" # 360px larghezza per gestire la masonry 
+image: "/assets/images/portfolio/project-1/project-1-v1.jpg" # 360px larghezza per gestire la masonry 
 image-header:
 image-paint:
 gallery:
