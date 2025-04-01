@@ -53,6 +53,7 @@ Ecco un [link di esempio](https://example.com).
 ![Esempio di immagine](https://picsum.photos/800/800?random=1 "Testo alternativo")
 
 ![Esempio di immagine](https://picsum.photos/800/800?random=2)
+
 ---
 
 ### `Codice inline`
