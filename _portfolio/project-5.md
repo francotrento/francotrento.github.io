@@ -52,7 +52,7 @@ Ecco un [link di esempio](https://example.com).
 
 #### 🔗 immagine 1
 
-![Esempio di immagine](https://picsum.photos/800/800?random=1 "Testo alternativo")
+![Esempio di immagine](https://picsum.photos/800/400?random=1 "Testo alternativo")
 
 #### 🔗 immagine 2
 
