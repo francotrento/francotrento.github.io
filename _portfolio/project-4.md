@@ -1,5 +1,5 @@
 ---
-layout: porfolio
+layout: portfolio
 title: "Project 4"
 date: 2025-03-27
 description: "Descrizione del progetto 4"
