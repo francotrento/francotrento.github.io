@@ -19,12 +19,6 @@ slider:
 
 Ecco un **Lorem Ipsum in Markdown** con tutti gli elementi di formattazione principali per Jekyll:  
 
-```markdown
----
-title: "Esempio di Lorem Ipsum in Markdown"
-date: 2025-04-01
-layout: post
----
 
 # Titolo Principale (H1)
 
@@ -86,7 +80,7 @@ def hello():
 ---
 
 🎉 **Markdown pronto per Jekyll!** 🚀
-```
+
 
 ### ✅ **Cosa include questo Markdown?**
 ✔️ Titoli `#`  
