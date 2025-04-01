@@ -28,6 +28,9 @@ author:
   email: "info@francotrento.com"
   bio: "Artista di arte moderna concettuale"
 
+# la immagine di anteprima link per i social media
+og_image: "og-image/default-og-image.jpg"
+
 collections:
   portfolio:
     output: true
