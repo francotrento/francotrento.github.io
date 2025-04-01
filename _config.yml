@@ -51,14 +51,20 @@ navigation:
     url: "https://forms.gle/Pv5PoBbQUStbxdu5A"
 
 faq:
-  - question: "Come posso contattarvi?"
-    answer: "Puoi scriverci tramite la pagina Contatti o inviarci un'email."
-  - question: "Quali metodi di pagamento accettate?"
-    answer: "Accettiamo PayPal, carta di credito e bonifico bancario."
-  - question: "Quanto tempo ci vuole per la consegna?"
-    answer: "I tempi di consegna variano tra 3 e 5 giorni lavorativi."
-
-
+  - question: "Posso acquistare direttamente le opere di Franco Trento?"
+    answer: "Le opere di Franco Trento sono disponibili per collezionisti e gallerie selezionate. Se sei interessato, contattaci direttamente per discutere disponibilità e modalità d’acquisto."
+  - question: "Accettate commissioni per opere su misura?"
+    answer: "Franco Trento realizza opere personalizzate solo su progetti che rispettano la sua visione artistica. Se hai un’idea che pensi possa allinearsi con il suo stile, contattaci per una valutazione.."
+  - question: "Sono un gallerista/curatore, posso esporre le opere di Franco Trento?"
+    answer: "Siamo sempre aperti a collaborazioni con gallerie e curatori che vogliono valorizzare il lavoro di Franco Trento. Se sei interessato a una mostra o a una collaborazione, scrivici con la tua proposta."
+  - question: "Posso intervistare Franco Trento o scrivere un articolo su di lui?"
+    answer: "Siamo disponibili per interviste con giornalisti, blogger e critici d’arte seriamente interessati al suo lavoro. Contattaci con i dettagli della tua richiesta."
+  - question: "Accettate proposte di partnership o sponsorizzazione?"
+    answer: "Collaboriamo con brand e realtà che condividono valori affini al mondo dell’arte contemporanea. Se credi che la tua azienda o il tuo progetto possa creare valore reciproco, inviaci la tua proposta."
+  - question: "Fate consulenze artistiche o valutazioni di opere?"
+    answer: "No, il nostro focus è sulla produzione e diffusione delle opere di Franco Trento."
+  - question: "Posso scrivervi per chiacchierare o chiedere consigli generici sull’arte?"
+    answer: "No. Se sei un appassionato d’arte, ti invitiamo a seguire Franco Trento sui social e a visitare le sue mostre."
 
 social:
   instagram: "https://www.instagram.com/francotrentoart"
