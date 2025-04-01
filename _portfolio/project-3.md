@@ -50,7 +50,11 @@ Ecco un **Lorem Ipsum in Markdown** con tutti gli elementi di formattazione prin
 ### 🔗 Link ed immagini  
 Ecco un [link di esempio](https://example.com).  
 
+#### 🔗 immagine 1
+
 ![Esempio di immagine](https://picsum.photos/800/800?random=1 "Testo alternativo")
+
+#### 🔗 immagine 2
 
 ![Esempio di immagine](https://picsum.photos/800/800?random=2)
 
