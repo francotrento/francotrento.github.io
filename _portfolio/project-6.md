@@ -4,7 +4,7 @@ title: "Project 6"
 date: 2025-03-28
 description: "Descrizione del progetto 6"
 homepage: true
-image: "/assets/images/portfolio/project-6/image-paint-project-6-v1.jpg"
+image: "/assets/images/portfolio/project-6/project-6-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/project-6/image-paint-project-6-v1.jpg"
 gallery:
