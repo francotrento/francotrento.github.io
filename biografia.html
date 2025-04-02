@@ -1,0 +1,169 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+# SEO
+title: Franco Trento  - Biografia.
+description: Scopri la biografia di Franco Trento, artista contemporaneo che esprime emozioni attraverso l'acrilico su tela. Esplora il suo percorso artistico e le collaborazioni con gallerie. 
+permalink: /biografia/ to manage permalinks
+# url:
+# og_image:
+# SCRIPTING
+css: /assets/css/custom-index.css
+# head-script: frontmatter to add some head js (ex. head-script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
+# script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
+---
+<style>
+
+.masonry-container
+{
+  padding-top: 13vh;
+  width: 1300px;
+  margin: auto;
+  columns: 6;
+  column-gap: 20px;
+  
+}
+.masonry-container .box
+{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  border-radius: 15px;
+}
+.masonry-container .box img
+{
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 10px;
+}
+
+
+.masonry-container img:hover {
+  
+  opacity: .95;
+  box-shadow: 0 0 10px #fff;
+}
+
+.caption{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px;
+}
+
+@media (max-width: 1427px)
+{
+  .masonry-container
+  {
+    columns: 5;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 1200px)
+{
+  .masonry-container
+  {
+    columns: 4;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  .masonry-container
+  {
+    columns: 3;
+  }
+  
+}
+  
+  
+
+
+@media (max-width: 786px)
+{
+  .masonry-container
+  {
+    columns: 2;
+  }
+  
+}
+
+
+@media (max-width: 480px)
+{
+  .masonry-container
+  {
+    columns: 2;
+  }
+}
+
+.carousel-item a.btn {
+    font-size: 14px;
+    padding: 8px 12px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-item a.btn:hover {
+    opacity: 1;
+}
+</style>
+
+
+<div class="hero-100hv position-relative d-flex flex-column justify-content-end">
+  <picture>
+    <!-- Immagine per mobile -->
+    <source srcset="/assets/images/index/hero-bg-franco-trento-mobile.jpg" media="(max-width: 768px)">
+    <!-- Immagine per desktop (fallback) -->
+    <img src="/assets/images/index/hero-bg-franco-trento.jpg" class="hero-bg img-fluid" alt="Sfondo Franco Trento">
+  </picture>
+  
+  <div class="hero-overlay-white"></div>
+  
+  <div class="container col-xxl-8 py-5 position-relative">
+      <div class="row d-flex flex-column justify-content-end g-5 py-5">
+          <div class="col-12 col-sm-10 col-md-8 col-lg-8">
+              <h1 class="display-5 fw-bold lh-1 mb-5">Franco Trento - Biografia</h1>
+              <p class="fs-5">Scopri la biografia di Franco Trento, artista contemporaneo che esprime emozioni attraverso l'acrilico su tela. Esplora il suo percorso artistico e le collaborazioni con gallerie.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="container my-5">
+  <div class="row">
+      <div class="col-lg-6 mb-4">
+          <img src="/assets/images/about-franco-trento.jpg" class="img-fluid rounded" alt="Franco Trento all'opera">
+      </div>
+      <div class="col-lg-6">
+          <h2>Biografia</h2>
+          <p>Franco Trento è nato a Pescara, dove ha frequentato il Liceo Artistico diplomandosi nel 1974. Negli anni della formazione ha avuto modo di studiare con gli stessi insegnanti di Andrea Pazienza, suo compagno di studi, in un ambiente creativo e stimolante che ha segnato il suo percorso artistico.</p>
+          <p>Dopo essersi iscritto all’Accademia di Belle Arti dell’Aquila, sezione Scenografia, ha scelto di interrompere gli studi accademici per dedicarsi all’insegnamento dell’Educazione Artistica nella scuola secondaria.</p>
+      </div>
+  </div>
+  
+  <div class="row">
+      <div class="col-lg-6">
+          <h2>Carriera e Influenze</h2>
+          <p>Ha preso parte a diversi concorsi nazionali e internazionali di pittura, ottenendo premi e segnalazioni. Le sue prime opere, come ha scritto il critico Mario Di Credico, “esprimono l’incontro tra la realtà e la fantasia: rivelano contenuti di testimonianza umana nel gioco fantasioso della vita”.</p>
+          <p>Trasferitosi nella provincia di Varese, ha lavorato con un team di litografi d’arte collaborando indirettamente con artisti come Murer, Tamburi, M. Cascella e Cicoli. Questa esperienza gli ha permesso di approfondire la tecnica della litografia e affinare la sua sensibilità artistica.</p>
+      </div>
+      <div class="col-lg-6 mb-4">
+          <img src="/assets/images/about-franco-trento.jpg" class="img-fluid rounded" alt="Litografie artistiche">
+      </div>
+  </div>
+  
+  <div class="row">
+      <div class="col-lg-6 mb-4">
+          <img src="/assets/images/about-franco-trento.jpg" class="img-fluid rounded" alt="Opera di Franco Trento">
+      </div>
+      <div class="col-lg-6">
+          <h2>Stile e Tecnica</h2>
+          <p>Il suo stile si distingue per l’uso espressivo del colore e delle texture, con pennellate dinamiche che evocano sensazioni di movimento e profondità. Le sue opere interpretano il mondo attraverso una fusione tra astrazione e figurazione, dove il colore diventa il vero protagonista.</p>
+          <p>Oggi vive e lavora in provincia di Varese, continuando a esplorare la pittura come mezzo di espressione e ricerca interiore.</p>
+      </div>
+  </div>
+</div>
+

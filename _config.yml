@@ -50,6 +50,8 @@ navigation:
     url: "/portfolio/"
   - title: "Mostre"
     url: "/mostre/"
+  - title: "Biografia"
+    url: "/biografia/"
   - title: "Contatti"
     url: "https://forms.gle/Pv5PoBbQUStbxdu5A"
 
