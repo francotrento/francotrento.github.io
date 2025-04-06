@@ -39,12 +39,15 @@
   </div>
 </div>
 {% include footer.html %}
+{% comment %}
 {% include cookie-consent.html %}
+{% endcomment %}
 </main>
-  <script src="{{ '/assets/js/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
-  <script src="/assets/js/cookie-consent.js"></script>
-  {% if page.script %}
-    {{ page.script }}
-  {% endif %}
+<script src="{{ '/assets/js/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
+<!--<script src="/assets/js/cookie-consent.js"></script>--> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+{% if page.script %}
+  {{ page.script }}
+{% endif %}
 </body>
 </html>
