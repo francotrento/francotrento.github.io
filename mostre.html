@@ -1,0 +1,46 @@
+---
+layout: post
+css: /assets/css/custom-index.scss
+---
+
+{%- if page.list_title -%}
+  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+{%- endif -%}
+
+<!-- Elenco Post -->
+<ul class="post-list">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {%- for post in site.posts -%}
+  <li>
+    <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <h3>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+
+<!-- Elenco Mostre -->
+<h2 class="post-list-heading mt-5">Mostre</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {%- for mostra in site.mostre -%}
+  <div class="col">
+    <div class="card h-100">
+      <img src="{{ mostra.image | relative_url }}" class="card-img-top" alt="{{ mostra.title }}">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="{{ mostra.url | relative_url }}" class="stretched-link text-decoration-none text-dark">
+            {{ mostra.title }}
+          </a>
+        </h5>
+      </div>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
+
