@@ -401,7 +401,7 @@ blockquote footer {
 
 @media (min-width: 1200px) {
   blockquote p {
-    font-size: 5rem; /* Grandezza massima su schermi molto ampi */
+    font-size: 4rem; /* Grandezza massima su schermi molto ampi */
   }
 }
 
