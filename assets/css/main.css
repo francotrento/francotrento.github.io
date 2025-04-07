@@ -359,3 +359,23 @@ table .table-striped tbody tr:nth-of-type(odd) {
 table .table-bordered {
   border: 1px solid #dee2e6;
 }
+
+
+blockquote {
+  border-left: 5px solid #007bff; /* Linea laterale blu per evidenziare */
+  background-color: #f8f9fa; /* Colore di sfondo chiaro */
+  padding: 15px 20px; /* Spaziatura interna */
+  margin: 20px 0; /* Margine per separare il blockquote dal resto del testo */
+  font-style: italic; /* Testo in corsivo per un tocco elegante */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leggera ombra */
+}
+
+blockquote p {
+  margin-bottom: 0; /* Evita margini extra sotto il testo */
+}
+
+blockquote footer {
+  text-align: right;
+  font-weight: bold;
+  color: #007bff; /* Colore per l'autore */
+}
