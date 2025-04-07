@@ -3,6 +3,7 @@ layout: portfolio
 title: "Lapilli"
 date: 2018-04-07
 description: "Acrilico su tela cm.40x60 "
+homepage: true
 image: "/assets/images/portfolio/lapilli/lapilli-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/lapilli/image-paint-lapilli-v1.jpg"
