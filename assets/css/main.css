@@ -364,7 +364,7 @@ table .table-bordered {
 blockquote {
   border-left: 5px solid #007bff; /* Linea laterale blu per evidenziare */
   background-color: #f8f9fa; /* Colore di sfondo chiaro */
-  padding: 15px 20px; /* Spaziatura interna */
+  padding: 25px 30px; /* Maggiore spaziatura interna */
   margin: 20px 0; /* Margine per separare il blockquote dal resto del testo */
   font-style: italic; /* Testo in corsivo per un tocco elegante */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leggera ombra */
@@ -372,6 +372,7 @@ blockquote {
 
 blockquote p {
   margin-bottom: 0; /* Evita margini extra sotto il testo */
+  font-size: 1.5rem; /* Dimensione del font su mobile */
 }
 
 blockquote footer {
@@ -379,3 +380,28 @@ blockquote footer {
   font-weight: bold;
   color: #007bff; /* Colore per l'autore */
 }
+
+@media (min-width: 576px) {
+  blockquote p {
+    font-size: 2rem; /* Aumenta la dimensione su schermi medio-piccoli */
+  }
+}
+
+@media (min-width: 768px) {
+  blockquote p {
+    font-size: 3rem; /* Aumenta ulteriormente la dimensione per schermi più grandi */
+  }
+}
+
+@media (min-width: 992px) {
+  blockquote p {
+    font-size: 4rem; /* Grandezza ancora maggiore per desktop */
+  }
+}
+
+@media (min-width: 1200px) {
+  blockquote p {
+    font-size: 5rem; /* Grandezza massima su schermi molto ampi */
+  }
+}
+
