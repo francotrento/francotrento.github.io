@@ -6,7 +6,7 @@ description: "Acrilico su tela  cm. 50x70"
 homepage: true
 image: "/assets/images/portfolio/danza-di-neve/danza-di-neve-v1.jpg"
 image-header:
-image-paint: "/assets/images/portfolio/lapilli/image-paint-danza-di-neve-v1.jpg"
+image-paint: "/assets/images/portfolio/danza-di-neve/image-paint-danza-di-neve-v1.jpg"
 gallery:
   - "https://picsum.photos/400/300?random=1"
   - "https://picsum.photos/400/300?random=2"
