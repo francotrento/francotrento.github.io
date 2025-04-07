@@ -395,13 +395,13 @@ blockquote footer {
 
 @media (min-width: 992px) {
   blockquote p {
-    font-size: 4rem; /* Grandezza ancora maggiore per desktop */
+    font-size: 3rem; /* Grandezza ancora maggiore per desktop */
   }
 }
 
 @media (min-width: 1200px) {
   blockquote p {
-    font-size: 4rem; /* Grandezza massima su schermi molto ampi */
+    font-size: 3rem; /* Grandezza massima su schermi molto ampi */
   }
 }
 
