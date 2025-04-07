@@ -8,7 +8,7 @@ image: "/assets/images/portfolio/dinamismi-di-colore-nella-natura/dinamismi-di-c
 image-header:
 image-paint: "/assets/images/portfolio/dinamismi-di-colore-nella-natura/image-paint-dinamismi-di-colore-nella-natura-v1.jpg"
 slider:
-  - "/assets/images/portfolio/dinamismi-di-colore-nella-natura/dinamismi-di-colore-nella-natura-v1.jpg"
-  - "/assets/images/portfolio/dinamismi-di-colore-nella-natura/dinamismi-di-colore-nella-natura-v2.jpg"
+  - "/assets/images/portfolio/dinamismi-di-colore-nella-natura/dinamismi-di-colore-della-natura-slide1.jpg"
+  - "/assets/images/portfolio/dinamismi-di-colore-nella-natura/dinamismi-di-colore-della-natura-slide2.jpg"
 ---
 
