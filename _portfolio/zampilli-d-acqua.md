@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: "Project 8"
-date: 2025-03-27
-description: "Descrizione del progetto 8"
-image: "/assets/images/portfolio/project-8/project-8-v1.jpg"
+title: "Zampilli d'acqua"
+date: 2017-03-27
+description: "Acrilico su tela cm.40x60"
+image: "/assets/images/portfolio/zampilli-d-acqua/zampilli-d-acqua-v1.jpg"
 image-header:
-image-paint: "/assets/images/portfolio/project-8/image-paint-project-8-v1.jpg"
+image-paint: "/assets/images/portfolio/zampilli-d-acqua/image-paint-zampilli-d-acqua-v1.jpg"
 gallery:
   - "https://picsum.photos/400/300?random=1"
   - "https://picsum.photos/400/300?random=2"
