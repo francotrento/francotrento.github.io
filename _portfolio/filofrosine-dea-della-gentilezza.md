@@ -7,19 +7,13 @@ homepage: true
 image: "/assets/images/portfolio/filofrosine-dea-della-gentilezza/filofrosine-dea-della-gentilezza-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/filofrosine-dea-della-gentilezza/image-paint-filofrosine-dea-della-gentilezza-v1.jpg"
-gallery:
-  - "https://picsum.photos/400/300?random=1"
-  - "https://picsum.photos/400/300?random=2"
-  - "https://picsum.photos/400/300?random=3"
 slider:
-  - "https://picsum.photos/800/800?random=1"
-  - "https://picsum.photos/800/800?random=2"
-  - "https://picsum.photos/800/800?random=3"
+  - "/assets/images/portfolio/filofrosine-dea-della-gentilezza/filofrosine-dea-della-gentilezza-slide-1.jpg"
+  - "/assets/images/portfolio/filofrosine-dea-della-gentilezza/filofrosine-dea-della-gentilezza-slide-2.jpg"
 ---
 > In virtute posita est vera felicitas
 
 (La felicita’ vera e’ nella virtu’). 
-
 (Lucio Anneo Seneca).                                   
 
 Una delle principali virtù da coltivare e’ la gentilezza. 

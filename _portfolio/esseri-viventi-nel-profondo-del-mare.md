@@ -12,7 +12,6 @@ gallery:
   - "https://picsum.photos/400/300?random=2"
   - "https://picsum.photos/400/300?random=3"
 slider:
-  - "https://picsum.photos/800/800?random=1"
-  - "https://picsum.photos/800/800?random=2"
-  - "https://picsum.photos/800/800?random=3"
+  - "/assets/images/portfolio/esseri-viventi-nel-profondo-del-mare/esseri-viventi-nel-profondo-del-mare-slide-1.jpg"
+  - "/assets/images/portfolio/esseri-viventi-nel-profondo-del-mare/esseri-viventi-nel-profondo-del-mare-slide-2.jpg"
 ---
