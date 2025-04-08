@@ -11,13 +11,13 @@ slider:
   - "/assets/images/portfolio/filofrosine-dea-della-gentilezza/filofrosine-dea-della-gentilezza-slide-1.jpg"
   - "/assets/images/portfolio/filofrosine-dea-della-gentilezza/filofrosine-dea-della-gentilezza-slide-2.jpg"
 ---
-> In virtute posita est vera felicitas
 
-(La felicita’ vera e’ nella virtu’). 
-(Lucio Anneo Seneca).                                   
+> _“In virtute posita est vera felicitas”_  
+> *(La felicità vera è nella virtù)*  
+> — Lucio Anneo Seneca
 
-Una delle principali virtù da coltivare e’ la gentilezza. 
+Nel cuore della filosofia antica, tra le virtù da coltivare per una vita piena e armoniosa, la **gentilezza** occupa un posto d’onore. È la forza silenziosa che unisce, che apre, che riconcilia. In questa tela, Franco Trento ne fa omaggio evocando **Filofrosine**, una delle antiche Cariti, spirito del garbo, dell’ospitalità e dell’accoglienza.
 
-Garbo e gentilezza creano un ponte per capirsi anche nelle situazioni più complicate e generano armonia tra le persone. 
+Le pennellate morbide e i toni delicati del rosa e dell’oro vibrano in un’**atmosfera eterea**, come sospesa tra mito e sogno. La composizione pare fiorire al centro della tela come un’offerta: un bouquet di luce, pace e delicatezza.
 
-Ben lo sapevano gli antichi, tanto che tra le Cariti annoveravano Filofrosine, spirito di  gentilezza, garbo e accoglienza.
+Quest’opera è un invito a riscoprire la bellezza dei gesti gentili, che sanno trasformare anche i giorni più oscuri in **momenti di autentica umanità**. Un tributo alla forza serena del rispetto e dell’ascolto.
