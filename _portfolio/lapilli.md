@@ -24,4 +24,3 @@ C'è qualcosa di primordiale in questa composizione, come se la tela fosse testi
 
 Franco Trento, con questo lavoro, ci invita ad avvicinarci, a perdersi nei dettagli, a scorgere **universi nascosti** dietro ogni frammento. Un’opera che non si guarda soltanto: **si ascolta**, **si vive**, **si immagina**.
 
----
