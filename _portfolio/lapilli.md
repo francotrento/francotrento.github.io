@@ -9,7 +9,7 @@ image-header:
 image-paint: "/assets/images/portfolio/lapilli/image-paint-lapilli-v1.jpg"
 slider:
   - "/assets/images/portfolio/lapilli/lapilli-slide-1.jpg"
-  - "/assets/images/portfolio/lapilli/lapilli-slide-2.jpg
+  - "/assets/images/portfolio/lapilli/lapilli-slide-2.jpg"
 ---
 
 > _“Schegge di luce che danzano nella notte, come pensieri che esplodono silenziosi nel vuoto del cosmo.”_
