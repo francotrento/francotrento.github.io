@@ -5,7 +5,7 @@ date: 2024-06-28
 description: "Acrilico su tela"
 image: "/assets/images/portfolio/corallo-del-crepuscolo/corallo-del-crepuscolo-v1.jpg"
 image-header:
-image-paint: "/assets/images/portfolio/project-6/image-paint-corallo-del-crepuscolo-v1.jpg"
+image-paint: "/assets/images/portfolio/corallo-del-crepuscolo/image-paint-corallo-del-crepuscolo-v1.jpg"
 #slider:
 #  - "https://picsum.photos/800/800?random=1"
 #  - "https://picsum.photos/800/800?random=2"
