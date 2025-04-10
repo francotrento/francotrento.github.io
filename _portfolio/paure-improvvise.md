@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: "Paure improvvise"
-date: 2025-03-27
+date: 2023-05-10
 description: "Acrilico su tela 40x50cm"
 image: "/assets/images/portfolio/paure-improvvise/image-paint-paure-improvvise-v1.jpg"
 image-header:
