@@ -6,7 +6,7 @@ description: "Acrilico su tela"
 image: "/assets/images/portfolio/danza-organica/danza-organica-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/danza-organica/image-paint-danza-organica-v1.jpg"
- slider:
+slider:
   - "/assets/images/portfolio/danza-organica/danza-organica-slide-1.jpg"
   - "/assets/images/portfolio/danza-organica/danza-organica-slide-2.jpg"
 ---
