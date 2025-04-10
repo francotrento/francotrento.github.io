@@ -7,8 +7,8 @@ image: "/assets/images/portfolio/vele-d-argento-in-un-notturno-lacustre/vele-d-a
 image-header:
 image-paint: "/assets/images/portfolio/vele-d-argento-in-un-notturno-lacustre/image-paint-vele-d-argento-in-un-notturno-lacustre-v1.jpg"
 slider:
-  - "/assets/images/portfolio/risveglio-della-terra/vele-d-argento-in-un-notturno-lacustre-slide-1.jpg"
-  - "/assets/images/portfolio/risveglio-della-terra/vele-d-argento-in-un-notturno-lacustre-slide-2.jpg"
+  - "/assets/images/portfolio/vele-d-argento-in-un-notturno-lacustre/vele-d-argento-in-un-notturno-lacustre-slide-1.jpg"
+  - "/assets/images/portfolio/vele-d-argento-in-un-notturno-lacustre/vele-d-argento-in-un-notturno-lacustre-slide-2.jpg"
 ---
 
 
