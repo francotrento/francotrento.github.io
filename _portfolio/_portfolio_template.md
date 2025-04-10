@@ -48,7 +48,7 @@ Ecco un **Lorem Ipsum in Markdown** con tutti gli elementi di formattazione prin
 ---
 
 ### 🔗 Link ed immagini  
-Ecco un [link di esempio](https://example.com).  
+Ecco un ["Link di esempio"](https://www.itinerarinellarte.it/it/mostre/i-have-a-dream-6204){:rel="nofollow" target="_blank"}.  
 
 #### 🔗 immagine 1
 
