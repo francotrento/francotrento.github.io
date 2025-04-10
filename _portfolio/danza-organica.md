@@ -11,7 +11,7 @@ slider:
   - "/assets/images/portfolio/danza-organica/danza-organica-slide-2.jpg"
 ---
 
-> "L'arte non è solo una rappresentazione del mondo, ma un'esplosione di vita che ci invita a sentirne il battito."
+> *"L'arte non è solo una rappresentazione del mondo, ma un'esplosione di vita che ci invita a sentirne il battito."*
 
 U'opera astratta che esplode di vitalità e movimento, catturando l'occhio con una composizione audace e istintiva. La tela si apre su uno sfondo vibrante di verdi profondi e rossi terracotta, intrecciati in un flusso dinamico che richiama le forze della natura—un bosco rigoglioso o un terreno vulcanico in fermento. 
 

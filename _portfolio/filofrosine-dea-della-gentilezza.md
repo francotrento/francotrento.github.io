@@ -14,7 +14,7 @@ slider:
 
 > _“In virtute posita est vera felicitas”_  
 > *(La felicità vera è nella virtù)*  
-> — Lucio Anneo Seneca
+> — **Lucio Anneo Seneca**
 
 Nel cuore della filosofia antica, tra le virtù da coltivare per una vita piena e armoniosa, la **gentilezza** occupa un posto d’onore. È la forza silenziosa che unisce, che apre, che riconcilia. In questa tela, Franco Trento ne fa omaggio evocando **Filofrosine**, una delle antiche Cariti, spirito del garbo, dell’ospitalità e dell’accoglienza.
 

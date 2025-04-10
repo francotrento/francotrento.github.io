@@ -13,7 +13,7 @@ slider:
 
 
 > _“Nella nave dell’umanità, la volontà è il timone e il sentimento sono le vele.”_  
-> – Ralph Waldo Emerson
+> – **Ralph Waldo Emerson**
 
 In questa composizione, le **vele argentee** si stagliano nella quiete di una notte lacustre, illuminate dal riflesso della luna. Sono vele che hanno conosciuto il vento e la tempesta, e ora riposano, **placide come i sentimenti che, dopo l’impeto, trovano pace**.
 
