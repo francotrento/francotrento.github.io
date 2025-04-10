@@ -6,9 +6,9 @@ description: "Acrilico su tela"
 image: "/assets/images/portfolio/il-linguaggio-dei-petali/image-paint-il-linguaggio-dei-petali-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/il-linguaggio-dei-petali/image-paint-il-linguaggio-dei-petali-v1.jpg"
-#slider:
-#  - "https://picsum.photos/800/800?random=1"
-#  - "https://picsum.photos/800/800?random=2"
+slider:
+  - "/assets/images/portfolio/il-linguaggio-dei-petali/il-linguaggio-dei-petali-slide-1.jpg"
+  - "/assets/images/portfolio/il-linguaggio-dei-petali/il-linguaggio-dei-petali-slide-2.jpg"
 ---
 
 > _“Anche i fiori parlano, ma bisogna imparare ad ascoltare con gli occhi.”_

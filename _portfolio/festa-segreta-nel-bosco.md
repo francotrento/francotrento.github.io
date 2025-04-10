@@ -6,9 +6,9 @@ description: "Acrilico su tela"
 image: "/assets/images/portfolio/festa-segreta-nel-bosco/festa-segreta-nel-bosco-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/festa-segreta-nel-bosco/image-paint-festa-segreta-nel-bosco-v1.jpg"
-#slider:
-#  - "https://picsum.photos/800/800?random=1"
-#  - "https://picsum.photos/800/800?random=2"
+slider:
+  - "/assets/images/portfolio/festa-segreta-nel-bosco/festa-segreta-nel-bosco-slide-1.jpg"
+  - "/assets/images/portfolio/festa-segreta-nel-bosco/festa-segreta-nel-bosco-slide-1.jpg"
 ---
 
 > _“Nel cuore della foresta, anche i colori hanno qualcosa da dire.”_

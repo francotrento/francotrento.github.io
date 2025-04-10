@@ -6,9 +6,9 @@ description: "Acrilico su tela"
 image: "/assets/images/portfolio/danza-organica/danza-organica-v1.jpg"
 image-header:
 image-paint: "/assets/images/portfolio/danza-organica/image-paint-danza-organica-v1.jpg"
-# slider:
-#  - "https://picsum.photos/800/800?random=1"
-#  - "https://picsum.photos/800/800?random=2"
+ slider:
+  - "/assets/images/portfolio/danza-organica/danza-organica-slide-1.jpg"
+  - "/assets/images/portfolio/danza-organica/danza-organica-slide-2.jpg"
 ---
 
 > "L'arte non è solo una rappresentazione del mondo, ma un'esplosione di vita che ci invita a sentirne il battito."
