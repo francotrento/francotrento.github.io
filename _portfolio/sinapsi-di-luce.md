@@ -11,8 +11,8 @@ slider:
   - "/assets/images/portfolio/sinapsi-di-luce/sinapsi-di-luce-slide-2.jpg"
 ---
 
-> **“La mente non è un vaso da riempire, ma un fuoco da accendere.”**  
-> — *Plutarco*
+> *“La mente non è un vaso da riempire, ma un fuoco da accendere.”*  
+> — **Plutarco**
 
 Una rete pulsante di **linee flessuose gialle e arancio** si irradia come scintille neurali su uno sfondo stratificato di blu e viola. 
 
