@@ -13,7 +13,7 @@ slider:
 
 > *"L'arte non è solo una rappresentazione del mondo, ma un'esplosione di vita che ci invita a sentirne il battito."*
 
-U'opera astratta che esplode di vitalità e movimento, catturando l'occhio con una composizione audace e istintiva. La tela si apre su uno sfondo vibrante di verdi profondi e rossi terracotta, intrecciati in un flusso dinamico che richiama le forze della natura—un bosco rigoglioso o un terreno vulcanico in fermento. 
+Un'opera astratta che esplode di vitalità e movimento, catturando l'occhio con una composizione audace e istintiva. La tela si apre su uno sfondo vibrante di verdi profondi e rossi terracotta, intrecciati in un flusso dinamico che richiama le forze della natura—un bosco rigoglioso o un terreno vulcanico in fermento. 
 
 Sopra questa base cromatica, pennellate bianche vigorose e spontanee danzano sulla superficie, creando forme irregolari e organiche che sembrano pulsare di vita. La texture ricca e tattile, frutto di un approccio gestuale, invita a esplorare la profondità e il contrasto dell'opera, quasi come se si potesse toccare il colore stesso.
 
