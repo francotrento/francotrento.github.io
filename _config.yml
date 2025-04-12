@@ -35,9 +35,9 @@ collections:
   portfolio:
     output: true
     permalink: "/portfolio/:title/"
-  mostre:
-    output: true
-    permalink: "/mostre/:title/"
+#  mostre:
+#    output: true
+#    permalink: "/mostre/:title/"
 
 plugins:
   - jekyll-feed
